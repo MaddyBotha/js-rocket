@@ -14,6 +14,15 @@ var changeState = function (state) {
                        countdownNumber = countdownNumber - 1;
             document.getElementById('countdown').innerHTML = countdownNumber;
 
+            if (countdownNumber == 5) {
+              //  Blast Off!!  
+            }; 
+            
+            if (countdownNumber == 3) {
+              //  Let's Do This
+            };
+            
+            
             if (countdownNumber <= 0) {
                 changeState(3);
             }
@@ -25,7 +34,7 @@ var changeState = function (state) {
             console.log('randomNumber:', randomNumber)
 
             //SUCcESS
-            if (randomNumber > 5) {
+            if (randomNumber > 3) {
                 // do something
                 changeState(4);
             } else {

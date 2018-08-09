@@ -17,27 +17,68 @@
 }
 
 .ground {
-    background-color: green;
+    background: url('../Doodle/GROUND.png') no-repeat center 0;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 20px;
+    height: 80px;
+}
+
+.liftoff {
+    position: absolute;
+    bottom: 180px;
+    left: 150px;
+    margin-left: 200px;
+    background: url('../Doodle/LetsdoThis.png') no-repeat 0 0;
+    width: 181px;
+    height: 111px;
+}
+
+.blastoff {
+    position: absolute;
+    bottom: 180px;
+    right: 100px;
+    margin-right: 235px;
+    background: url('../Doodle/blastoff.png') no-repeat 0 0;
+    width: 181px;
+    height: 111px;
 }
 
 .rocket {
     position: absolute;
     left: 50%;
     bottom: 20px;
-    width: 20px;
-    height: 100px;
-    background-color: red;
+    width: 190px;
+    height: 162px;
+    margin-left: -68.5px;
+    background: url('../Doodle/STATE-1.png') no-repeat 0 0;
     transition: bottom 10000ms;
 }
 
 body.body-state1 .rocket {
     transition: none;
 }
+
+/* Rocket BG Img*/
+body.body-state2 .rocket {
+     background-image: url('../Doodle/output_9iZlAQ.gif');
+}
+
+body.body-state3 .rocket,
+body.body-state4 .rocket {
+     background-image: url('../Doodle/output_yJf6W6.gif');
+}
+
+body.body-state5 .rocket {
+    background-image: url('../Doodle/BOOM!.png');
+    width: 290px;
+    height: 285px;
+    margin-left: -145px;
+}
+
+
+
 
 body.body-state3 .rocket,
 body.body-state4 .rocket{
