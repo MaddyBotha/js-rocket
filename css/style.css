@@ -131,9 +131,6 @@ body.body-state5 .rocket {
     margin-left: -145px;
 }
 
-
-
-
 body.body-state3 .rocket,
 body.body-state4 .rocket{
     bottom: 1000px;
@@ -153,10 +150,28 @@ body.body-state3 .state3 { display: block;}
 body.body-state4 .state4 { display: block;}
 body.body-state5 .state5 { display: block;}
 
-a {
-    
+
+
+/* Referal Page*/
+
+.body-bg {
+    background: url(https://unsplash.com/photos/Kjxo0FT2NlY); no-repeat;
 }
 
-a.button {
+.hiJS {
+    margin-left: 5%
+}
+
+a.referalrocket {
+    margin-left: 5%;
+    padding: 10px 10px;
+    color: red;
+    font-family: 'Architects Daughter';
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn {
     
 }
