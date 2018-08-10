@@ -38,7 +38,7 @@ a.button {
 }
 
 a:hover {
-    color: #331e1e;
+    color: #edd749;
 }
 
 .count {
@@ -76,7 +76,7 @@ a:hover {
     position: absolute;
     bottom: 180px;
     left: 150px;
-    margin-left: 200px;
+    margin-left: 290px;
     background: url('../Doodle/LetsdoThis.png') no-repeat 0 0;
     width: 181px;
     height: 111px;
@@ -92,7 +92,7 @@ a:hover {
     position: absolute;
     bottom: 180px;
     right: 100px;
-    margin-right: 235px;
+    margin-right: 435px;
     background: url('../Doodle/blastoff.png') no-repeat 0 0;
     width: 181px;
     height: 111px;
@@ -149,29 +149,3 @@ body.body-state2 .state2 { display: block;}
 body.body-state3 .state3 { display: block;}
 body.body-state4 .state4 { display: block;}
 body.body-state5 .state5 { display: block;}
-
-
-
-/* Referal Page*/
-
-.body-bg {
-    background: url(https://unsplash.com/photos/Kjxo0FT2NlY); no-repeat;
-}
-
-.hiJS {
-    margin-left: 5%
-}
-
-a.referalrocket {
-    margin-left: 5%;
-    padding: 10px 10px;
-    color: red;
-    font-family: 'Architects Daughter';
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.btn {
-    
-}

@@ -1,7 +1,3 @@
-setTimeout(function () {
-    
-}, 2000);
-
 
 var timer = null;
 var countdownNumber = 10;

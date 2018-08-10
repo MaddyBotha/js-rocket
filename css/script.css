@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Caveat+Brush|Rock+Salt');
+
+
+/* Referal Page*/
+
+.body-bg {
+    background: url(../Doodle/hello-i-m-nik-685214-unsplash.jpg); no-repeat;
+    background-size: cover;
+}
+
+.hiJS {
+    margin-left: 15%;
+    color: #a63a50;
+    font-family: 'Caveat Brush';
+    font-size: 105px;
+}
+
+a.referalrocket {
+    margin-left: 36%;
+    padding: 30px 10px;
+    color: #a63a50;
+    background-color: #edd749;
+    border-radius: 8px;
+    font-family: 'Caveat Brush';
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a3a3a3;
+}
