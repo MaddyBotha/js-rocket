@@ -28,13 +28,26 @@ a.button {
     display: block;
     background: #190a0a;
     color: #ba6e6e;
-    padding: 20px 20px;
+    padding: 25px;
     text-transform: uppercase;
     text-decoration: none;
-    border-radius: 12px;
-    font-weight: 400;
+    border-radius: 8px;
+    font-family: 'Caveat Brush';
+    font-size: 35px;
+    transition: color 300ms;
+}
+
+a:hover {
+    color: #331e1e;
+}
+
+.count {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 25px;
+    color: #ba6e6e;
     font-family: 'Architects Daughter';
-    font-size: 25px
 }
 
 .right {
