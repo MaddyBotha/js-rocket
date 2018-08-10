@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Caveat+Brush|Rock+Salt');
+
+
 .left {
-    background-color: #3f7b73;
+    background-color: #a63a50;
     position: fixed;
     width: 50%;
     height: 100%;
@@ -7,8 +10,35 @@
     left: 0;
 }
 
+.interface {
+    text-align: center;
+    padding: 80px;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 35px;
+    padding: 10px 10px;
+    margin: 30px;
+    font-family: 'Caveat Brush';
+    color: #edd749;
+}
+
+a.button {
+    display: block;
+    background: #190a0a;
+    color: #ba6e6e;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 400;
+    font-family: 'Architects Daughter';
+    font-size: 25px
+}
+
 .right {
-    background-color: #424f4b;
+    background-color: #a3a3a3;
     position: fixed;
     width: 50%;
     height: 100%;
@@ -25,6 +55,10 @@
     height: 80px;
 }
 
+.liftoff.show {
+    display: block;
+}
+
 .liftoff {
     position: absolute;
     bottom: 180px;
@@ -33,7 +67,13 @@
     background: url('../Doodle/LetsdoThis.png') no-repeat 0 0;
     width: 181px;
     height: 111px;
+    display: none;
 }
+
+.blastoff.show {
+    display: block;
+}
+
 
 .blastoff {
     position: absolute;
@@ -43,6 +83,7 @@
     background: url('../Doodle/blastoff.png') no-repeat 0 0;
     width: 181px;
     height: 111px;
+    display: none;
 }
 
 .rocket {

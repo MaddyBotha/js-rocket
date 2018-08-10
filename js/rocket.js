@@ -14,12 +14,18 @@ var changeState = function (state) {
                        countdownNumber = countdownNumber - 1;
             document.getElementById('countdown').innerHTML = countdownNumber;
 
-            if (countdownNumber == 5) {
+            if (countdownNumber > 4 && countdownNumber <= 7) {
               //  Blast Off!!  
-            }; 
+                document.getElementById('liftoff').className = 'liftoff show';
+            } else {
+                document.getElementById('liftoff').className = 'liftoff';
+            };
             
-            if (countdownNumber == 3) {
+            if (countdownNumber > 1 && countdownNumber <= 4) {
               //  Let's Do This
+                document.getElementById('blastoff').className = 'blastoff show';
+            } else {
+              document.getElementById('blastoff').className = 'blastoff';  
             };
             
             
